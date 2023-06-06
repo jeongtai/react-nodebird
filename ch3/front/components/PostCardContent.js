@@ -12,7 +12,7 @@ const PostCardContent = ({ postData }) => (
             as={`/hashtag/${v.slice(1)}`}
             key={v}
           >
-            <a>{v}</a>
+            {v}
           </Link>
         );
       }
